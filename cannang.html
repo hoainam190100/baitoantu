@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let CanNang=prompt("hãy nhập số cân nặng của bạn" );
+        let cao=prompt("hãy nhập chiều cao của bạn");
+        let bmi;
+        bmi=CanNang/(cao*cao);
+        if (bmi < 18){
+            alert("bmi < 18 bạn bị gầy");
+            document.write("bạn bị gầy");
+        }
+        else if (bmi < 25.0){
+            alert("bmi < 25 bạn bình thường");
+            document.write("bình thường");
+        }
+        else if (bmi < 30.0){
+            alert("bmi < 30 bạn hơi béo");
+            document.write("bạn hơi béo");
+        } else
+            document.write(" Bạn Bị Mập");
+
+</script>
+
+    </body>
+</html>
